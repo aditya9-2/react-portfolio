@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { BsFillPersonLinesFill , BsInstagram} from 'react-icons/bs'
 
 
 const SocialLinks = () => {
@@ -44,6 +44,17 @@ const SocialLinks = () => {
 
         {
             id: 4,
+            child: (
+                <>
+                    Instagram <BsInstagram size={30} />
+                </>
+
+            ),
+            href: 'https://www.instagram.com/adityaa_basak/',
+        },
+
+        {
+            id: 5,
             child: (
                 <>
                     Resume <BsFillPersonLinesFill size={30} />
