@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Check the website here
+
+[https://coruscating-hummingbird-146db3.netlify.app] (Aditya Basak portfolio link)
+
 ## Available Scripts
 
 In the project directory, you can run:
