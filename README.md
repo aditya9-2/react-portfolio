@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Check the website here
 
-[https://coruscating-hummingbird-146db3.netlify.app](Aditya Basak portfolio link)
+Open [https://coruscating-hummingbird-146db3.netlify.app](https://coruscating-hummingbird-146db3.netlify.app) to see the portfolio
 
 ## Available Scripts
 
