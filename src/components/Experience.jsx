@@ -7,6 +7,7 @@ import nextjs from '../assets/nextjs.png'
 import firebase from '../assets/firebase.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import python from '../assets/python.png'
 
 const Experience = () => {
 
@@ -66,14 +67,21 @@ const Experience = () => {
             title: 'GitHub',
             style: 'shadow-gray-400'
         },
+        {
+            id: 9,
+            src: python,
+            title: 'Python',
+            style: 'shadow-lime-400'
+        },
+
     ]
     return (
-        <div name='experience' className=' bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+        <div name='experience' className=' bg-gradient-to-b from-indigo-900 to-slate-900 w-full h-screen'>
 
-            <div className=' max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+            <div className=' max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-slate-400'>
 
                 <div>
-                    <p className=' text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>
+                    <p className=' text-4xl font-bold border-b-4 border-slate-500 p-2 inline'>
                         Experience
                     </p>
                     <p className='py-6 text-xl'>

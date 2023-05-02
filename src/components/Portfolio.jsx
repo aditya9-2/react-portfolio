@@ -2,9 +2,9 @@ import React from 'react'
 import HealthZoid from '../assets/portfolio/healthzoid.jpg'
 import PgLife from '../assets/portfolio/pgLife.jpg'
 import boxOffice from '../assets/portfolio/box.jpg'
-import Hportfolio from '../assets/portfolio/port.jpg'
 import Rportfolio from '../assets/portfolio/rp.jpg'
 import tictactoe from '../assets/portfolio/TicTacToe.jpg'
+import goloc from '../assets/portfolio/GOLOC.png'
 
 
 
@@ -40,9 +40,9 @@ const Portfolio = () => {
 
         {
             id: 4,
-            src: Hportfolio,
-            href: 'https://github.com/aditya9-2/my-portfolio',
-            title: 'HTMLPortfolio'
+            src: goloc,
+            href: 'https://github.com/aditya9-2/GOLOC',
+            title: 'GOLOC'
 
 
         },
@@ -64,13 +64,15 @@ const Portfolio = () => {
 
 
         },
+
+
     ]
 
     return (
-        <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+        <div name="portfolio" className='bg-gradient-to-b from-slate-900 to-indigo-900 w-full text-slate-400 md:h-screen'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-slate-400'>Portfolio</p>
                     <p className='py-6 text-xl'>
                         Checkout some of my work over here
 
@@ -83,7 +85,7 @@ const Portfolio = () => {
                     {
                         portfolios.map(({ id, src, href, title }) => (
 
-                            <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+                            <div key={id} className='shadow-md shadow-teal-600 rounded-lg'>
 
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
 
