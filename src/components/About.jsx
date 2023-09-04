@@ -6,7 +6,7 @@ const About = () => {
 
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
-                <div className='pt-24'>
+                <div className='pt-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-slate-500'>
                         About
                     </p>
@@ -20,9 +20,7 @@ const About = () => {
                 <p className='text-xl mt-5 text-slate-400'>
                     As a developer, I specialize in using HTML, CSS, and JavaScript to create visually stunning and intuitive websites that are optimized for performance and accessibility. I have experience working with a range of frameworks, including Bootstrap, React, Tailwind, Next JS & Firebase, and I am always eager to learn new tools and techniques to improve my craft.
                 </p>
-                <p className='text-xl mt-5 text-slate-400'>
-                    My approach to web development is centered on collaboration and communication. I believe that the best websites are created through close partnerships with clients, where we work together to understand their goals and develop solutions that exceed their expectations. I am dedicated to delivering high-quality work on time and on budget, and I pride myself on my ability to provide exceptional customer service throughout the entire development process.
-                </p>
+
             </div>
 
 
