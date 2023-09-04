@@ -9,7 +9,7 @@ const Home = () => {
 
             <div className=' max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
 
-                <div className='flex flex-col justify-center h-full'>
+                <div className='flex flex-col justify-center h-1/2'>
 
                     <h2 className='text-4xl sm:text-7xl font-bold text-slate-300'>
                         I'm a Developer

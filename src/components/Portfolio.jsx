@@ -70,7 +70,7 @@ const Portfolio = () => {
 
     return (
         <div name="portfolio" className='bg-gradient-to-b from-slate-900 to-indigo-900 w-full text-slate-400 md:h-screen'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+            <div className='max-w-screen-lg pt-32 p-4 mx-auto flex flex-col justify-center w-full h-1/2'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-slate-400'>Portfolio</p>
                     <p className='py-6 text-xl'>

@@ -6,7 +6,7 @@ const About = () => {
 
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
-                <div className='pb-8'>
+                <div className='pt-24'>
                     <p className='text-4xl font-bold inline border-b-4 border-slate-500'>
                         About
                     </p>
@@ -23,11 +23,6 @@ const About = () => {
                 <p className='text-xl mt-5 text-slate-400'>
                     My approach to web development is centered on collaboration and communication. I believe that the best websites are created through close partnerships with clients, where we work together to understand their goals and develop solutions that exceed their expectations. I am dedicated to delivering high-quality work on time and on budget, and I pride myself on my ability to provide exceptional customer service throughout the entire development process.
                 </p>
-
-                <p className='text-xl mt-5 text-slate-400'>
-                    Thank you for visiting my portfolio website, and I look forward to working with you to create the website of your dreams.
-                </p>
-
             </div>
 
 
